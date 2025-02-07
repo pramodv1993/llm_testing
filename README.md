@@ -1,4 +1,4 @@
-## Exploring Tests for Langgraph based Agents
+## Exploring tests for LLM Agents
 
 A Large Language Model (LLM) agent can carry out a variety of tasks on behalf of a user, in additon to answering queries. Given a task, typically the agent autonomously decides the next best action to be executed and proceeds. The enduser will only get the final result once all the intermediate actions are performed. Hence, in real world settings, it makes it all the more important to test out different corner cases that the agent might encounter at different stages.
 
@@ -8,6 +8,10 @@ For demo purposes, I use the [Langgraph](https://www.langchain.com/langgraph) fr
 
 ![](agent_design.png)
 
+### Notes:
+- The main test file is in [test_graph.py](test_graph.py)
+- The agent building logic is in [graph_builder.py](graph_builder.py)
+- The mock data for tests can be added within [data_mocker.py](graph_builder.py)
 
 #### To run the tests:
 - Install the requirements using `pip install -r requirements.txt`
