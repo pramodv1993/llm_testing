@@ -11,7 +11,7 @@ For demo purposes, I use the [Langgraph](https://www.langchain.com/langgraph) fr
 ### Notes:
 - The main test file is in [test_graph.py](test_graph.py)
 - The agent building logic is in [graph_builder.py](graph_builder.py)
-- The mock data for tests can be added within [data_mocker.py](graph_builder.py)
+- The mock data for tests can be added within [data_mocker.py](data_mocker.py)
 - To get more insights about this repo, do check out the article I wrote where I have used this repo as a running example [here](https://medium.com/pythoneers/towards-developing-tests-for-large-language-model-enabled-apis-946e04c9ed65)
 
 #### To run the tests:
